@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/portfolio-react-app/static/css/main.424012bd.css",
+    "main.js": "/portfolio-react-app/static/js/main.7b4fd1ac.js",
+    "static/js/787.1de67672.chunk.js": "/portfolio-react-app/static/js/787.1de67672.chunk.js",
+    "static/media/0.jpg": "/portfolio-react-app/static/media/0.515337e62b9a976e7048.jpg",
+    "static/media/readme.jpg": "/portfolio-react-app/static/media/readme.9c4beef320b0a1a66b2a.jpg",
+    "static/media/cocktail.jpg": "/portfolio-react-app/static/media/cocktail.f112514dbe0b61eea88c.jpg",
+    "static/media/mycalendar.jpg": "/portfolio-react-app/static/media/mycalendar.9cf36c73a1ae3971f7a0.jpg",
+    "static/media/alleyTwentySix.jpg": "/portfolio-react-app/static/media/alleyTwentySix.4f1f3a3a7099aa31b5ca.jpg",
+    "static/media/IMG_7672.jpg": "/portfolio-react-app/static/media/IMG_7672.2a31beaef0a60253b675.jpg",
+    "index.html": "/portfolio-react-app/index.html",
+    "static/media/github.svg": "/portfolio-react-app/static/media/github.95ad9234e1509d5c93ffe0a9f7eb217a.svg",
+    "main.424012bd.css.map": "/portfolio-react-app/static/css/main.424012bd.css.map",
+    "main.7b4fd1ac.js.map": "/portfolio-react-app/static/js/main.7b4fd1ac.js.map",
+    "787.1de67672.chunk.js.map": "/portfolio-react-app/static/js/787.1de67672.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.424012bd.css",
+    "static/js/main.7b4fd1ac.js"
+  ]
+}
