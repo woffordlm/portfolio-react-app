@@ -3,7 +3,7 @@ import lukePic from '../../images/IMG_7672.jpg';
 function About(){
     return(
         <main>
-            <section id="aboutMe" className="aboutMe">
+            <section id="about" className="aboutMe">
             <div className="image-bio">
                 <div className="bio-1">
                 <div className="picture-border">

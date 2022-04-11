@@ -7,7 +7,7 @@ import myCalendar from "../../images/mycalendar.jpg"
 
 function Work(){
     return(
-        <section id="work">
+        <section id="portfolio">
 
     <h2 className="section-title">Work</h2>
     <div className="project-list">
