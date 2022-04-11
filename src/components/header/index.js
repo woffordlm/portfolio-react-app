@@ -1,50 +1,63 @@
-function Nav(){
+function Nav(props){
+console.log('props:', props)
+// const {
+//   setCurrentTab,
+//   currentTab
+// } = props;
+
+const tabs = ["About", "Portfolio", "Contact", "Resume"];
     return(
-        <header>
-    <nav>
-      <ul>
+      <>
+      <header>
+        <nav>
+          <ul>
+          {tabs.map((tab) => (
+          <li
+            className={
+              props.currentTab === tab ? "navActive" : "nav-item"
+            }
+            key={tab}
+          >
+            <a
+              href={"#" + tab.toLowerCase()}
+              // Whenever a tab is clicked on,
+              // the current page is set through the handlePageChange props.
+              onClick={() => props.setCurrentTab(tab)}
+              className={
+                props.currentPage === tab ? "nav-link active" : "nav-link"
+              }
+            >
+              {tab}
+            </a>
+          </li>
+
+          ))}
+          
+              
+          </ul>
+        </nav>
+      </header>
+      </>
+    )
+          }
+
+
+
+{/* 
         <li>
-          <a href="#aboutMe">About</a>
+          <a  href="#aboutMe">About</a>
         </li>
         <li>
-          <a href="#work">Work</a>
+          <a onClick={tabSelected} href="#work">Work</a>
         </li>
         <li>
-          <a href="#contact">Contact</a>
+          <a onClick={tabSelected} href="#contact">Contact</a>
         </li>
         <li>
-          <a  data-toggle="modal" class='.text-white' data-target=".bd-example-modal-xl">Resume</a>
+          <a href="blank" data-toggle="modal" class='.text-white' data-target=".bd-example-modal-xl">Resume</a>
         </li>
       </ul>
     </nav>
-  </header>
-    )
-}
-export default Nav
+  </header> */}
 
-{/* <div>  
-    <header>
-      <nav>
-        <ul>
-          <li>
-            <link to="/aboutMe">About</link>
-          </li>
-          <li>
-            <link to="/work">Portfolio</link>
-          </li>
-          <li>
-            <link href="/contact">Contact</link>
-          </li>
-          <li>
-            <link
-              data-toggle="modal"
-              class=".text-white"
-              data-target=".bd-example-modal-xl"
-            >
-              Resume
-            </link>
-          </li>
-        </ul>
-      </nav>
-    </header>
-  </div>   */}
+export default Nav
